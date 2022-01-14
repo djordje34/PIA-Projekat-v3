@@ -1,0 +1,142 @@
+html,body{
+    background-image: url(backpic.jpg);
+    background-size: cover;
+    background-repeat:repeat !important;
+    height:auto;
+    min-height: 100%;
+    font-family: 'Numans', sans-serif;
+    overflow:auto;    
+    }
+    .container{
+    height: 100%;
+    opacity:100%;
+    align-content: center;
+    }
+    
+    .card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.5) !important;
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: white;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+    }
+    
+    .login_btn:hover{
+    color: black;
+    background-color: white;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+    input[type='radio']:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+
+    input[type='radio']:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -1px;
+        position: relative;
+        background-color: #FFC312;
+        content: '';
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+    }
+    input[type="checkbox"] {
+        filter: invert(100%) hue-rotate(18deg) brightness(1.7);    
+    }
+
+    #nekidiv{
+        background-color:black;
+    }
+    .rating-css {
+      }
+      .rating-css div {
+        color: #ffc312;
+        font-size: 20px;
+        font-family: sans-serif;
+        font-weight: 800;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 0;
+      }
+      .rating-css input {
+        display: none;
+      }
+      .rating-css input + label {
+        font-size: 20px;
+        text-shadow: 2px 2px 1px black;
+        cursor: pointer;
+      }
+      .rating-css input:checked + label ~ label {
+        color: white;
+      }
+      .rating-css label:active {
+        transform: scale(0.8);
+        transition: 0.3s ease;
+      }
